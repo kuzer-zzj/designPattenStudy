@@ -1,2 +1,10 @@
 # Project exclude paths
 /target/
+.idea
+*.iml
+target
+out
+gen
+d:
+LOG_HOME_IS_UNDEFINED
+rebel.xml
