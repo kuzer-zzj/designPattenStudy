@@ -7,7 +7,7 @@ public class AudioPlayer implements MediaPlayer {
 
     MediaAdapter mediaAdapter;
 
-
+//git 创建分支
     public void play(String audioType, String fileName) {
         if (audioType.equals("mp3")) {
             System.out.println("Playing mp3 file Name: "+fileName);
