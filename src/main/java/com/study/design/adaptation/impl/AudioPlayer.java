@@ -13,6 +13,7 @@ public class AudioPlayer implements MediaPlayer {
             System.out.println("Playing mp3 file Name: "+fileName);
             return;
         }
+        //git2创建
         if (StrUtil.equalsAny(audioType, "v", "mp4")) {
             mediaAdapter = new MediaAdapter(audioType);
             mediaAdapter.play(audioType,fileName);
