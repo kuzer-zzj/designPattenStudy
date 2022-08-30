@@ -4,6 +4,9 @@ import com.study.design.observer.impl.ObjFor3D;
 import com.study.design.observer.impl.ObserverUser1;
 import com.study.design.observer.impl.ObserverUser2;
 
+/**
+ * 观察者模式
+ */
 public class ObsServerTest {
     public static void main(String[] args) {
         //模拟创建一个服务号
